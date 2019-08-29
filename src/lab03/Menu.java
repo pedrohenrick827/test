@@ -48,7 +48,6 @@ public class Menu {
 			case "e":
 				System.out.print("Contato>");
 				int posicaoContato = entrada.nextInt();
-
 				System.out.println("\n" + agenda.exibirContato(posicaoContato));
 				break;
 			case "s":
