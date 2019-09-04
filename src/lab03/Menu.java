@@ -1,7 +1,13 @@
 package lab03;
 
-import java.util.Scanner;
 
+import java.util.Scanner;
+/**
+ * Classe responsavel pelo menu da Agenda; onde o usuario irá utiliza-la da maneira que lhe for necessaria.
+ * 
+ * @author pedro
+ *
+ */
 public class Menu {
 	public static void main(String[] args) {
 		Agenda agenda = new Agenda();
@@ -43,7 +49,7 @@ public class Menu {
 
 				break;
 			case "l":
-				System.out.println(agenda.toString());
+				System.out.println(agenda);
 				break;
 			case "e":
 				System.out.print("Contato>");
